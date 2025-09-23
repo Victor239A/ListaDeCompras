@@ -7,4 +7,5 @@
 .header img {
     margin: 2rem 1rem;
     width: 45px;
+    cursor: pointer;
 }

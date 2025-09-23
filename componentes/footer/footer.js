@@ -1,7 +1,7 @@
-export function formulario(){
+export function footer(){
 
-    let formulario = document.createElement('div');
-    formulario.className = "formulario";
+    let footer = document.createElement('div');
+    footer.className = "footer";
 
-    return formulario;
+    return footer;
 }
