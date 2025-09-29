@@ -1,4 +1,4 @@
-import { descargar } from "../download/download.js"; 
+import { descargar } from "../../control/download/download.js"; 
 
 export function header() {
     let header = document.createElement('header');

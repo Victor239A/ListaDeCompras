@@ -1,9 +1,8 @@
 const CARRITO = 'carrito';
 
 function guardarProducto(producto) {
-  
- let carrito = JSON.parse(localStorage.getItem(CARRITO)) || [];
- 
+  let carrito = JSON.parse(localStorage.getItem(CARRITO)) || [];
+  carrito.push(producto); // agrega el producto al arreglo
   localStorage.setItem(CARRITO, JSON.stringify(carrito));
 }
 
